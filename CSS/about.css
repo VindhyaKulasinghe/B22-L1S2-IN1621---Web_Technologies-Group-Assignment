@@ -100,25 +100,25 @@ nav a:hover {
     font-family: 'dosis',sans-serif;
 }
 table {
-    width: 100vw;
-    height: 60vh;
+    width: 98.78vw;
+    height: 100vh;
     background-color: black;
     border: none;
 }
 
 .r1div1 {
     width: 50vw;
-    height: 30vh;
+    height: 50vh;
     filter: grayscale();
 }
 
 .r1div2 {
     width: 50vw;
-    height: 60vh;
+    height: 100vh;
 }
 .r2div1{
     width: 25vw;
-    height: 30vh;
+    height: 50vh;
 }
 table img{
 height: 100%;
@@ -486,5 +486,26 @@ footer a {
 
     .footlogo img {
         display: none;
+    }
+    table {
+        width: 98.78vw;
+        height: 60vh;
+        background-color: black;
+        border: none;
+    }
+    
+    .r1div1 {
+        width: 50vw;
+        height: 30vh;
+        filter: grayscale();
+    }
+    
+    .r1div2 {
+        width: 50vw;
+        height: 60vh;
+    }
+    .r2div1{
+        width: 25vw;
+        height: 30vh;
     }
 }
